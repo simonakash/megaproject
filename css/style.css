@@ -1,0 +1,67 @@
+/* --------------------------------
+------------- Theme CSS  ----------
+----------------------------------- */
+hr{
+	height:1px;
+	width:100px;
+	background-color:#b7b7b7;;
+}
+/* ======= header part ======= */
+header img{
+	height:100px;
+	width:100px;
+}
+/* ======= Slider part ======= */
+#slider h1{
+	font-family: 'Roboto Slab', serif;
+}
+/* ======= Newsletter part ======= */
+#newsletter{
+	background-image:url(../images/index-11.jpg)
+}
+#newsletter input{
+	height:3.6rem;
+	width:32rem !important;
+}
+/* ======= Client part ======= */
+#client img{
+	opacity:.3;
+	transition:.5s;
+}
+button:focus{
+	outline:none;
+}
+#client img:hover{
+	opacity:1;
+}
+/* ======= Footer part ======= */
+footer a{
+	height:30px;
+	width:30px;
+	background-color:#00000017;
+	transition:.3s;
+}
+footer a:hover{
+	color:#82c434 !important;
+}
+@media (max-width:768px){
+	#slider h1 span{
+		font-size:2rem;
+	}
+	#slider h1 small{
+		font-size:1rem;
+	}
+	#slider p{
+		font-size:.8rem;
+	}
+	#newsletter input{
+		width:100% !important;
+		height:2.6rem !important;
+	}
+}
+
+
+
+
+
+
